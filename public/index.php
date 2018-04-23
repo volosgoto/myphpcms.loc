@@ -5,4 +5,4 @@ echo 'Front controller' . '<br>';
 
 require_once dirname(__DIR__ )  . '/config/init.php';
 
-new \ishop\core\App();
+new \ishop\Registry();

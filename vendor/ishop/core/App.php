@@ -1,6 +1,6 @@
 <?php
 
-namespace ishop\core;
+namespace ishop;
 
 
 class App {
