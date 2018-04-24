@@ -3,3 +3,6 @@
 # phpstorm project files
 .idea
 
+
+/tmp/
+
