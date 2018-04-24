@@ -1,9 +1,13 @@
 <?php
+use ishop\App;
+
 echo 'Front controller' . '<br>';
 
 //echo $_SERVER['QUERY_STRING'];
 
 require_once dirname(__DIR__ )  . '/config/init.php';
+require_once LIBS . '/functions.php';
 
-new \ishop\App;
-var_dump (\ishop\App::$app->getProperties());
+new App();
+App::$app->setProperty('test', 'test');
+debug(App::$app->getProperties());
