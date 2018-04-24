@@ -5,4 +5,5 @@ echo 'Front controller' . '<br>';
 
 require_once dirname(__DIR__ )  . '/config/init.php';
 
-new \ishop\Registry();
+new \ishop\App;
+var_dump (\ishop\App::$app->getProperties());
