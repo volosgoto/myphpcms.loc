@@ -10,3 +10,17 @@
 =================
 [2018-04-24 11:19:51] Текст ошибки: Страница не найдена | Файл: /var/www/myphpcms.loc/public/index.php | Строка: 14
 =================
+[2018-04-25 11:25:42] Текст ошибки: Страница не найдена | Файл: /var/www/myphpcms.loc/vendor/ishop/core/Router.php | Строка: 33
+=================
+[2018-04-25 12:13:15] Текст ошибки: Контроллер app\controllers\PageAboutController не найден | Файл: /var/www/myphpcms.loc/vendor/ishop/core/Router.php | Строка: 40
+=================
+[2018-04-25 12:15:41] Текст ошибки: Контроллер app\controllers\PageAboutController не найден | Файл: /var/www/myphpcms.loc/vendor/ishop/core/Router.php | Строка: 40
+=================
+[2018-04-25 12:22:03] Текст ошибки: Контроллер app\controllers\PageAboutController не найден | Файл: /var/www/myphpcms.loc/vendor/ishop/core/Router.php | Строка: 45
+=================
+[2018-04-25 12:22:24] Текст ошибки: Контроллер app\controllers\PageAboutController не найден | Файл: /var/www/myphpcms.loc/vendor/ishop/core/Router.php | Строка: 45
+=================
+[2018-04-25 12:22:28] Текст ошибки: Метод app\controllers\PageController::indexAction не найден | Файл: /var/www/myphpcms.loc/vendor/ishop/core/Router.php | Строка: 42
+=================
+[2018-04-25 12:22:31] Текст ошибки: Метод app\controllers\PageController::indexAction не найден | Файл: /var/www/myphpcms.loc/vendor/ishop/core/Router.php | Строка: 42
+=================

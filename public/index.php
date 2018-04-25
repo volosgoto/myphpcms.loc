@@ -2,7 +2,7 @@
 use ishop\App;
 use ishop\Router;
 
-echo 'Front controller' . '<br>';
+echo 'Main Controller' . '<br>';
 
 //echo $_SERVER['QUERY_STRING'];
 
