@@ -1,5 +1,6 @@
 <?php
 use ishop\App;
+use ishop\Router;
 
 echo 'Front controller' . '<br>';
 
@@ -7,5 +8,8 @@ echo 'Front controller' . '<br>';
 
 require_once dirname(__DIR__ )  . '/config/init.php';
 require_once LIBS . '/functions.php';
+require_once CONF . '/routs.php';
 
 new App();
+
+//debug(Router::getRoutes());
