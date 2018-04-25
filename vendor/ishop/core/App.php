@@ -7,7 +7,9 @@ class App {
     public static $app;
 
     public function __construct() {
-        //echo $query = trim($_SERVER['QUERY_STRING'], '/');
+//        $query = trim($_SERVER['QUERY_STRING'], '/');
+//        var_dump($query);
+
         session_start();
         self::$app = Registry::instance();
         $this->getParams();
