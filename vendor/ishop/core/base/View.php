@@ -3,37 +3,35 @@
  * Created by PhpStorm.
  * User: andrey
  * Date: 26.04.18
- * Time: 9:37
+ * Time: 10:19
  */
 
 namespace ishop\base;
 
 
-abstract class Controller {
+class View {
 
     public $route;
     public $controller;
     public $model;
     public $view;
     public $prefix;
+    public $layout;
     public $data = [];
     public $meta = [];
 
-    public function __construct($route){
+    public function __construct($route, $layout = '', $view = '', $meta){
         $this->route = $route;
         $this->controller = $route['controller'];
+        $this->view = $view;
         $this->model = $route['controller'];
-        $this->view = $route['action'];
         $this->prefix = $route['prefix'];
+        $this->meta = $meta;
+        if($layout === false){
+            $this->layout = false;
+        }else{
+            $this->layout = $layout ?: LAYOUT;
+        }
     }
 
-    public function set($data){
-        $this->data = $data;
-    }
-
-    public function setMeta($title = '', $desc = '', $keywords = ''){
-        $this->meta['title'] = $title;
-        $this->meta['desc'] = $desc;
-        $this->meta['keywords'] = $keywords;
-    }
 }
