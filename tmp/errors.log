@@ -24,3 +24,7 @@
 =================
 [2018-04-25 12:22:31] Текст ошибки: Метод app\controllers\PageController::indexAction не найден | Файл: /var/www/myphpcms.loc/vendor/ishop/core/Router.php | Строка: 42
 =================
+[2018-04-25 14:18:50] Текст ошибки: Страница не найдена | Файл: /var/www/myphpcms.loc/vendor/ishop/core/Router.php | Строка: 49
+=================
+[2018-04-25 14:18:50] Текст ошибки: Страница не найдена | Файл: /var/www/myphpcms.loc/vendor/ishop/core/Router.php | Строка: 49
+=================
