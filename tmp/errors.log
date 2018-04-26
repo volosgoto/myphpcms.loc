@@ -34,3 +34,15 @@
 =================
 [2018-04-26 09:51:08] Текст ошибки: Контроллер app\controllers\HggController не найден | Файл: /var/www/myphpcms.loc/vendor/ishop/core/Router.php | Строка: 45
 =================
+[2018-04-26 11:18:17] Текст ошибки: На найден вид /var/www/myphpcms.loc/app/views/Main/index.php | Файл: /var/www/myphpcms.loc/vendor/ishop/core/base/View.php | Строка: 39
+=================
+[2018-04-26 11:19:11] Текст ошибки: На найден шаблон /var/www/myphpcms.locdefault | Файл: /var/www/myphpcms.loc/vendor/ishop/core/base/View.php | Строка: 46
+=================
+[2018-04-26 11:20:50] Текст ошибки: На найден шаблон /var/www/myphpcms.locdefault | Файл: /var/www/myphpcms.loc/vendor/ishop/core/base/View.php | Строка: 46
+=================
+[2018-04-26 11:21:39] Текст ошибки: На найден шаблон /var/www/myphpcms.locdefault | Файл: /var/www/myphpcms.loc/vendor/ishop/core/base/View.php | Строка: 46
+=================
+[2018-04-26 11:39:55] Текст ошибки: На найден шаблон default | Файл: /var/www/myphpcms.loc/vendor/ishop/core/base/View.php | Строка: 46
+=================
+[2018-04-26 11:43:27] Текст ошибки: На найден шаблон test | Файл: /var/www/myphpcms.loc/vendor/ishop/core/base/View.php | Строка: 46
+=================

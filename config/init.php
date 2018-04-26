@@ -20,7 +20,7 @@ define("CACHE", ROOT . '/tmp/cache');
 
 define("CONF", ROOT . '/config');
 
-define("LAYOUT", ROOT . 'default');
+define("LAYOUT", 'default');
 
 
 // http://hostname.loc/public/index.php
