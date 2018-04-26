@@ -10,5 +10,9 @@
 <body>
 
 <h1>Layout Default</h1>
+
+<?php
+    echo $content;
+?>
 </body>
 </html>

@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9a310da-beb8-4b60-892f-c73cfb8da866" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Main/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/page/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Page/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/page/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Page/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/errors.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/ishop/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ishop/core/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/ishop/core/base/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ishop/core/base/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/ishop/core/base/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ishop/core/base/View.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/default.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +20,7 @@
       <file leaf-file-name="Controller.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/ishop/core/base/Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="134">
               <caret line="31" column="29" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="29" />
             </state>
           </provider>
@@ -39,25 +30,25 @@
         <entry file="file://$PROJECT_DIR$/config/init.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
-              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/default.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="View.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="View.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/ishop/core/base/View.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="46" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+            <state relative-caret-position="304">
+              <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/default.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -127,13 +118,13 @@
         <option value="$PROJECT_DIR$/app/views/page/index.php" />
         <option value="$PROJECT_DIR$/app/views/page/view.php" />
         <option value="$PROJECT_DIR$/app/controllers/AppController.php" />
-        <option value="$PROJECT_DIR$/app/views/layouts/default.php" />
         <option value="$PROJECT_DIR$/vendor/ishop/core/base/Controller.php" />
         <option value="$PROJECT_DIR$/vendor/ishop/core/Router.php" />
         <option value="$PROJECT_DIR$/app/controllers/MainController.php" />
         <option value="$PROJECT_DIR$/app/views/Main/index.php" />
         <option value="$PROJECT_DIR$/config/init.php" />
         <option value="$PROJECT_DIR$/vendor/ishop/core/base/View.php" />
+        <option value="$PROJECT_DIR$/app/views/layouts/default.php" />
       </list>
     </option>
   </component>
@@ -272,12 +263,12 @@
       <workItem from="1524636361437" duration="11476000" />
       <workItem from="1524655152562" duration="602000" />
       <workItem from="1524722562916" duration="186000" />
-      <workItem from="1524722753472" duration="8052000" />
+      <workItem from="1524722753472" duration="8406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41006000" />
+    <option name="totallyTimeSpent" value="41360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-3" width="1366" height="722" extended-state="6" />
@@ -632,13 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/ishop/core/base/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/ishop/core/Router.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -653,6 +637,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ishop/core/base/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Main/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -660,24 +651,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/init.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/ishop/core/base/View.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="46" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        <state relative-caret-position="304">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
