@@ -16,5 +16,16 @@
 <?php
     echo $content;
 ?>
+
+
+<!--SQL query log in DEBUG mode-->
+<?php
+$logs = \R::getDatabaseAdapter()
+    ->getDatabase()
+    ->getLogger();
+debug( $logs->grep( 'SELECT' ) );
+?>
+
+
 </body>
 </html>
