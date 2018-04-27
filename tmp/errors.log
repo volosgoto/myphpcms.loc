@@ -52,3 +52,7 @@
 =================
 [2018-04-27 09:22:29] Текст ошибки: Страница не найдена | Файл: /var/www/myphpcms.loc/vendor/ishop/core/Router.php | Строка: 50
 =================
+[2018-04-27 11:03:54] Текст ошибки: Контроллер app\controllers\HvnbvnbController не найден | Файл: /var/www/myphpcms.loc/vendor/ishop/core/Router.php | Строка: 47
+=================
+[2018-04-27 11:38:35] Текст ошибки: Class 'ishop\base\Db' not found | Файл: /var/www/myphpcms.loc/vendor/ishop/core/base/Model.php | Строка: 19
+=================

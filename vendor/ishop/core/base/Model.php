@@ -7,16 +7,16 @@
  */
 
 namespace ishop\base;
-
+use ishop\Db;
 
 abstract class Model {
 
-    public $attributes = [];
+    public $attributes = []; // Array of field of table from DB
     public $errors = [];
     public $rules = [];
 
     public function __construct(){
-
+        Db::instance();
     }
 
 }
