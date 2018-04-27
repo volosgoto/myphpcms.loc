@@ -6,14 +6,12 @@ use ishop\App;
 
 class MainController extends AppController {
 
-
-
     public function indexAction(){
-//        debug($this->route);
+        $posts = \R::findAll('test');
+        //debug($posts);
 
-//        echo __METHOD__;
         $this->setMeta(App::$app->getProperty('site_name'), 'главная', 'главная');
-        $this->set(['key' => 'value', 'name' => 'Andrey', 'age' => '20']);
+        $this->set(compact('posts'));
     }
 
 }

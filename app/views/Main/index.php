@@ -2,4 +2,7 @@
 
 echo 'MainController/indexAction' . '</br>';
 
-echo $name . '-' . $age;
+foreach ($posts as $post) {
+    echo $post->title . '<br>';
+
+}
