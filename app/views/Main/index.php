@@ -1,3 +1,5 @@
 <?php
 
-echo 'Hello main/index';
+echo 'MainController/indexAction' . '</br>';
+
+echo $name . '-' . $age;

@@ -30,6 +30,10 @@ class View {
 
     public function render($data){
         $viewFile = APP . "/views/{$this->prefix}{$this->controller}/{$this->view}.php";
+//        debug($data);
+        if (is_array($data)) {
+            extract($data);
+        }
 
         if(is_file($viewFile)){
             ob_start();
